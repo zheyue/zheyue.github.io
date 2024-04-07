@@ -3,90 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>个人主页</title>
+    <title>HomePage</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f5f5dc; /* 浅咖啡色背景 */
-            opacity: 0;
-            transition: opacity 1s ease-in-out;
+            background-color: #f0f0f0;
         }
-
-        body.loaded {
-            opacity: 1;
-        }
-
         header {
-            background-color: #8b4513; /* 深咖啡色 */
+            background-color: #333;
             color: #fff;
             padding: 20px;
             text-align: center;
         }
-
         nav {
-            background-color: #8b4513; /* 深咖啡色 */
+            background-color: #444;
             padding: 10px;
             text-align: center;
         }
-
         nav a {
             color: #fff;
             text-decoration: none;
             padding: 10px;
         }
-
         section {
             padding: 20px;
             margin: 20px;
-            background-color: #faf0e6; /* 米白色 */
-            border-radius: 10px; /* 圆角边框 */
+            background-color: #fff;
         }
-
         footer {
-            background-color: #8b4513;
+            background-color: #333;
             color: #fff;
             padding: 20px;
             text-align: center;
-            margin-top: 20px; /* 与内容区域留出一定的间距 */
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to My Personal Homepage</h1>
+        <h1>Welcome to my Page</h1>
     </header>
     <nav>
-        <a href="#about">About Me</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <a href="#about">About me</a>
+        <a href="#projects">Project</a>
+        <a href="#contact">Contect</a>
     </nav>
     <section id="about">
-        <h2>About Me</h2>
+        <h2>About me</h2>
         <p>I am a passionate individual with a taste for elegance and sophistication. Welcome to my elegant homepage!</p>
     </section>
     <section id="projects">
-        <h2>Projects</h2>
+        <h2>项目</h2>
         <ul>
-            <li><a href="https://github.com/zheyue/Final-Project-Group1">Project 1</a></li>
-            <li><a href="https://github.com/zheyue/MNIST_project">Project 2</a></li>
-            <li><a href="https://github.com/zheyue/DATS_6450_Cloud_Computing_AWS_Final_Project">Project 3</a></li>
+            <li><a href="https://github.com/zheyue/Final-Project-Group1">项目名称1</a></li>
+            <li><a href="https://github.com/zheyue/MNIST_project">项目名称2</a></li>
+            <li><a href="https://github.com/zheyue/DATS_6450_Cloud_Computing_AWS_Final_Project">项目名称3</a></li>
         </ul>
     </section>
     <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: 11082lianqiao@gmail.com</p>
-        <p>Phone: 669-333-6236</p>
+        <h2>Contect</h2>
+        <p>Email：11082lianqiao@gmail.com</p>
+        <p>Phone：1234567896</p>
     </section>
     <footer>
-        <p>&copy; 2024 My Personal Homepage</p>
+        <p>&copy; 2024 My Personal Web Page</p>
     </footer>
-
-    <script>
-        window.onload = function() {
-            document.body.classList.add('loaded');
-        }
-    </script>
 </body>
 </html>
