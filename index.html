@@ -3,71 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>个人主页</title>
+    <title>My Elegant Homepage</title>
+    <link rel="stylesheet" href="styles.css"> <!-- 引入样式文件 -->
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
+            background-color: #f5f5dc; /* 浅咖啡色背景 */
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
         }
+
+        body.loaded {
+            opacity: 1;
+        }
+
         header {
-            background-color: #333;
+            background-color: #8b4513; /* 深咖啡色 */
             color: #fff;
             padding: 20px;
             text-align: center;
         }
-        nav {
-            background-color: #444;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            padding: 10px;
-        }
+
         section {
             padding: 20px;
             margin: 20px;
-            background-color: #fff;
+            background-color: #faf0e6; /* 米白色 */
+            border-radius: 10px; /* 圆角边框 */
         }
+
         footer {
-            background-color: #333;
+            background-color: #8b4513;
             color: #fff;
             padding: 20px;
             text-align: center;
+            margin-top: 20px; /* 与内容区域留出一定的间距 */
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>欢迎来到我的个人主页</h1>
+        <h1>Welcome to My Elegant Homepage</h1>
     </header>
-    <nav>
-        <a href="#about">关于我</a>
-        <a href="#projects">项目</a>
-        <a href="#contact">联系方式</a>
-    </nav>
-    <section id="about">
-        <h2>关于我</h2>
-        <p>我是一个热爱编程和技术的人，喜欢探索新的技术和挑战。欢迎来到我的个人主页！</p>
+    <section>
+        <h2>About Me</h2>
+        <p>I am a passionate individual with a taste for elegance and sophistication. Welcome to my elegant homepage!</p>
     </section>
-    <section id="projects">
-        <h2>项目</h2>
+    <section>
+        <h2>Projects</h2>
         <ul>
-            <li><a href="https://github.com/zheyue/Final-Project-Group1">项目名称1</a></li>
-            <li><a href="https://github.com/zheyue/MNIST_project">项目名称2</a></li>
-            <li><a href="https://github.com/zheyue/DATS_6450_Cloud_Computing_AWS_Final_Project">项目名称3</a></li>
+            <li><a href="#">Project 1</a></li>
+            <li><a href="#">Project 2</a></li>
+            <li><a href="#">Project 3</a></li>
         </ul>
     </section>
-    <section id="contact">
-        <h2>联系方式</h2>
-        <p>邮箱：11082lianqiao@gmail.com</p>
-        <p>电话：669-333-6236</p>
-    </section>
     <footer>
-        <p>&copy; 2024 我的个人主页</p>
+        <p>&copy; 2024 My Elegant Homepage</p>
     </footer>
+
+    <script>
+        window.onload = function() {
+            document.body.classList.add('loaded');
+        }
+    </script>
 </body>
 </html>
