@@ -1,6 +1,17 @@
+
 # FL160 AutoFiller
 
 This is a lightweight automation tool that uses the Jinja2 template engine to generate pre-filled FL160 form content based on structured input data.
+
+## Background
+
+During my internship at a family law firm, I encountered a repetitive pain point: manually filling out large volumes of legal forms (e.g., FL-150, FL-160) using Adobe Acrobat. The process was time-consuming, error-prone, and difficult to scale—especially for templates with little structural variation.
+
+This repository is a lightweight prototype born out of that experience. It uses Jinja2 to generate form content from structured JSON data, providing a basic foundation for document automation in legal workflows.
+
+Given the constraints of working in law offices—limited technical infrastructure and the highly sensitive nature of client data—this early version avoids cloud-based AI/LLMs and instead focuses on safe, deterministic generation.
+
+The current implementation is intentionally simple. In future iterations, this tool could evolve into a more robust solution for local, secure, and scalable legal form generation.
 
 ## Features
 
