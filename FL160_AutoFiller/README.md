@@ -23,7 +23,7 @@ This is a lightweight automation tool that uses the Jinja2 template engine to ge
 
 1. **Install dependencies:**
 ```bash
-pip install Jinja2
+pip3 install Jinja2
 ```
 2.	**Edit the form data:**
     - Modify form_data.json to fit your case.
