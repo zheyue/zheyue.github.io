@@ -6,8 +6,8 @@ This project visualizes the popularity trends of AI productivity tools from 2024
 Access the live Looker Studio dashboard [here](https://lookerstudio.google.com/reporting/55466846-ac24-40c9-9149-8e4c2e1d0076).
 
 ## 📂 Data Files
-- [multiTimeline.csv](AI-Consumer-Trend-Dashboard/data/multiTimeline.csv)
-- [trend_long.csv](AI-Consumer-Trend-Dashboard/data/trend_long.csv)
+- [multiTimeline.csv](AI-Consumer-Trend-Dashboard/multiTimeline.csv)
+- [trend_long.csv](AI-Consumer-Trend-Dashboard/trend_long.csv)
 
 ## 📦 How to Use
 1. Download data files.
