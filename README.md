@@ -9,6 +9,8 @@ I'm currently building lightweight tools that solve real-world problems I encoun
 
 - [FL160_AutoFiller](./FL160_AutoFiller)  
   A lightweight form-filling prototype using Python and Jinja2, designed to simplify legal document workflows.
+- [AI Consumer Trend Dashboard](./AI-Consumer-Trend-Dashboard)
+  A visualization of overall AI keyword popularity
 
 ## About Me
 
