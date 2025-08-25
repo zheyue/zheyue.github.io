@@ -11,6 +11,13 @@ I'm currently building lightweight tools that solve real-world problems I encoun
   A lightweight form-filling prototype using Python and Jinja2, designed to simplify legal document workflows.
 - [AI Consumer Trend Dashboard](./AI-Consumer-Trend-Dashboard)
   A visualization of overall AI keyword popularity
+- [Social Buzz Analysis](./social-buzz-analysis)  
+  A data-driven project analyzing **user behavior and content performance** on the Social Buzz dataset.  
+  Key outcomes include:  
+  - Identifying **temporal hot zones** (seasonality & daily rhythms)  
+  - Highlighting **replicable high-quality content** (e.g., Culture)  
+  - Detecting **risky “viral illusion” topics** (e.g., Technology, Healthy Eating)  
+  - Generating **recommendations for scalable content investment**  
 
 ## About Me
 
